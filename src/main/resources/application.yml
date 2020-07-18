@@ -15,12 +15,12 @@ logging:
     root: info
     com.macro.mall: debug
 
-secure:
-  ignored:
-    urls: #安全路径白名单
-      - /swagger-ui.html
-      - /swagger-resources/**
-      - /swagger/**
-      - /**/v2/api-docs
-      - /actuator/**
-      - /druid/**
+#secure:
+#  ignored:
+#    urls: #安全路径白名单
+#      - /swagger-ui.html
+#      - /swagger-resources/**
+#      - /swagger/**
+#      - /**/v2/api-docs
+#      - /actuator/**
+#      - /druid/**
